@@ -17,7 +17,7 @@ uvicorn app:app --reload
 
 Missing or invalid input returns 400; unknown task IDs return 404.
 
-Storage is in memory and resets on restart. Run `pip install pytest httpx` and `python -m pytest -q` to check the lifecycle. [Swagger screenshot](swagger.png). Publication remains to be completed.
+Storage is in memory and resets on restart. Run `pip install pytest httpx` and `python -m pytest -q` to check the lifecycle. [Swagger screenshot](swagger.png). The original stage-by-stage commit history remains incomplete.
 
 Example local output:
 
